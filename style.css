@@ -212,7 +212,7 @@ color:lightgreen
     font-size: 20px;
     font-weight: 600;
 }
-#sortBydate{
+/* #sortBydate{
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
@@ -224,7 +224,7 @@ color:lightgreen
     -moz-border-radius:10px ;
     -ms-border-radius:10px ;
     -o-border-radius:10px ;
-}
+} */
 .films{
     padding: 0.4rem;
 }
