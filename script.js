@@ -316,6 +316,7 @@ prev.addEventListener('click', () => {
     if(date.value!='sort'){
       let sampleURL=BASE_URL+`discover/movie?sort_by=${date.value}&`+API_KEY;
       console.log(sampleURL);
+         tagsE1.style.display='none';
      getMovies(sampleURL)
     }
   
