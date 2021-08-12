@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie App</title>
+</head>
+<body>
+    
+    <header >
+       <a href="/"> <div class="movieapp">MovieApp</div></a>
+        
+    <input type="text" placeholder="Search" id="search" class="search">
+
+   <div id="toggle">Filter</div>
+   <select id="sortBydate">sort
+    <option value="popularity.desc" selected >popular</option>
+       <option value="release_date.desc"  >newfilm</option>
+       <option value="release_date.asc">Oldfilm</option>
+   </select>
+      
+    </header>
+    <div id="tags"></div>
+    <main id="main">
+       
+    </main>
+    <div class="pagination">
+        <div class="page " id="prev">Previous Page</div>
+        <div class="current" id="current">1</div>
+        <div class="page" id="next">Next Page</div>
+
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
